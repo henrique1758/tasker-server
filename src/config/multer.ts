@@ -18,9 +18,9 @@ const storageTypes = {
   }),
   s3: multerS3({
     s3: new aws.S3({
-      accessKeyId: "AKIAS3K7HNHSET7MHRE7",
-      secretAccessKey: "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",
-      region: "us-east-1"
+      accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+      secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+      region: process.env.AWS_DEFAULT_REGION
     }),
     bucket: 'tskr-henri87',
     contentType: multerS3.AUTO_CONTENT_TYPE,
@@ -36,7 +36,7 @@ const storageTypes = {
 
 export const multerConfig = {
   dest: resolve(__dirname, '..', '..', 'temp', 'avatar'),
-  storage: storageTypes["s3"],
+  storage: storageTypes["local"],
   limits: {
     fileSize: 2 * 1024 * 1024, // 4MB
   },
