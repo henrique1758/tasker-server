@@ -19,15 +19,15 @@ class UpdateUserUseCase {
 
   async execute({ id, name, email, password }: IRequest): Promise<void> {
     if (!name) {
-      throw new AppError("name is required!");
+      throw new AppError("Name is required!");
     }
 
     if (!email) {
-      throw new AppError("email is required!");
+      throw new AppError("E-mail is required!");
     }
 
     if (!password) {
-      throw new AppError("password is required!");
+      throw new AppError("Password is required!");
     }
     
     const user = await this.usersRepository.findUserById(id);

@@ -18,7 +18,7 @@ class UpdateUserAvatarUseCase {
     const user = await this.usersRepository.findUserById(userId);
 
     if (!user) {
-      throw new AppError("User does not exists!");
+      throw new AppError("User does not exists!", 404);
     }
 
     await this.usersRepository.updateUserAvatar({
