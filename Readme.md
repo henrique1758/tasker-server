@@ -1,8 +1,10 @@
-<img style="display: block; width: 250px; height: 150px; margin: 0 auto;" src="./logo.svg" alt="taskr logo">
+<p align="center">
+  <img style="width: 250px; height: 150px;" src="./logo.svg" alt="taskr logo">
+</p>
 
-<h1 style="text-align: center; margin: 16px 0;">Tskr api</h1>
+<h1 align="center" style="margin: 16px 0;">Tskr api</h1>
 
-<p style="text-align: center; margin-top: 16px;">Rest api developed to demonstrate the application of SOLID principles in a tasks CRUD</p>
+<p align="center" style="margin-top: 16px;">Rest api developed to demonstrate the application of SOLID principles in a tasks CRUD</p>
 
 <br />
 
