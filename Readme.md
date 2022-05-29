@@ -34,8 +34,6 @@
   <li>Delete task</li>
 </ul>
 
-<br />
-
 <h3 style="font-size: 2rem; margin-bottom: 1rem;">Aplication Techs 💻</h3>
 
 <ul>
