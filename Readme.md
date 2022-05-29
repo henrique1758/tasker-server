@@ -16,7 +16,7 @@
 
 <h2 style="font-size: 2rem; margin-bottom: 1rem;"> Application Features ✨</h2>
 
-<h2>🤗 User</h2>
+<h3>🤗 User</h3>
 
 <ul>
   <li>Create user</li>
