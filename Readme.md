@@ -10,7 +10,7 @@
 
 <h2 style="font-size: 2rem; margin-bottom: 1rem;">About the project ⚡</h2>
 
-<p>This project was developed in order to demonstrate the creation of an api rest using the SOLID principles and some of the best technologies in the backend world. see the <a href="#techs">technologies.</a></p>
+<p>This project was developed in order to demonstrate the creation of an api rest using the SOLID principles and some of the best technologies in the backend world. see the technologies below.</p>
 
 <br />
 
@@ -75,7 +75,7 @@ http://localhost:3333/routes-documentation
 
 <h3>Henrique Monteiro</h3>
 
-<ul>
+<ul style="margin-bottom: 1rem;">
   <li>
     Linkedin: <a href="https://www.linkedin.com/in/henrique-monteiro-3a936a223/" target="_blank">@henriquemonteiro3a936a223</a>
   </li>
@@ -83,3 +83,5 @@ http://localhost:3333/routes-documentation
     Github: <a href="https://github.com/henrique1758/" target="_blank">@henrique1758</a>
   </li>
 </ul>
+
+Give a ⭐️ if this project helped you!
