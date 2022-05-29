@@ -66,6 +66,11 @@ yarn
 ```sh
 yarn dev
 ```
+<p>See the api routes documentation at:</p>
+
+```sh
+http://localhost:3333/routes-documentation
+```
 # Author 
 
 <h3>Henrique Monteiro</h3>
