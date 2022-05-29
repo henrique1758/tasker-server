@@ -16,7 +16,7 @@
 
 <h2 style="font-size: 2rem; margin-bottom: 1rem;"> Application Features ✨</h2>
 
-<h3>🤗 User</h3>
+<h3 style="font-size: 2rem;">🤗 User</h3>
 
 <ul>
   <li>Create user</li>
@@ -25,7 +25,7 @@
   <li>Authenticate user</li>
 </ul>
 
-<h2>📃 Task</h2>
+<h3 style="font-size: 2rem;">📃 Task</h3>
 
 <ul>
   <li>Create task</li>
@@ -36,7 +36,7 @@
 
 <br />
 
-<h2 style="font-size: 2rem; margin-bottom: 1rem;">Aplication Techs 💻</h2>
+<h3 style="font-size: 2rem; margin-bottom: 1rem;">Aplication Techs 💻</h3>
 
 <ul>
   <li>Node js</li>
